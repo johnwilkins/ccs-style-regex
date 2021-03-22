@@ -1,0 +1,18 @@
+#Replace neutral with agnostic. No look around in sed.
+s/agnostic/neutral/g
+s/Agnostic/Neutral/g
+
+#Replace incorrect AMD64 usage.
+s/(Hammer|x86_64|x86-64|x64|64-bit x86)/AMD64/g
+
+#Auto-detect should be hyphenated.
+s/(A|a)utodetect/\1uto-detect/g
+
+#"Air gap" is the physical segregation and isolation of a system.
+s/air wall/air gap/g
+
+#"Alright" is the colloquial form of "correct" or "as expected."
+s/alright/correct/g
+
+#"Applixware" is a suite of proprietary modular applications for Linux.
+s/(A|a)pplix|(A|a)pplixWare/Applixware /g

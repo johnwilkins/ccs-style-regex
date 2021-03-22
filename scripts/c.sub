@@ -1,0 +1,29 @@
+#cgroup is lower case and one word.
+s/(Cg|CG|c g|C g)roup/cgroup/g
+
+#ciphertext is often misspelled
+s/(cipher text|cyphertext|cypher text|cipher-text|cypher-text)/ciphertext/g
+
+#Client side is two words without a hyphen.
+s/(C|c)lient-side/\1lient side/g
+
+s/(co-locate|collocate)/colocate/g
+s/(Co-locate|Collocate)/Colocate/g
+
+s/(C|c)ontainer based/\1ontainer-based/g
+s/(C|c)ross[ ]?platform/\1ross-platform/g
+s/(C|c)ontainerised/\1ontainerized/g
+s/the Cloud/the cloud/g
+s/(C|c)ommand-language/\1ommand language/g
+
+#Use "cross-platform" as an adjective when referring to the capability of software or hardware to run identically on different platforms.
+s/(C|c)ross([ ]?)platform/\1ross-platform/g
+
+#Use "cross-site scripting" as an adjective when referring to "cross-site scripting" attacks. Another acceptable use is "cross-site scripting" (XSS) attack.
+s/(C|c)ross site scripting/\1ross-site scripting/g
+
+#CSV is an acronym for "comma-separated values," which is a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first occurrence; use "CSV" thereafter.
+s/csv/CSV/g
+
+#"Cygmon" is a type of ROM monitor.
+s/(CygMon|cygmon|CYGMON)/Cygmon/g

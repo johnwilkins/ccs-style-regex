@@ -1,0 +1,37 @@
+#Bare metal is two words, unless used as a network name or command.
+s/([a-z.,]+)( )(B|b)(aremetal)/\1\2\3are metal/g
+s/([a-z.,]+)( )(B|b)(are-metal)/\1\2\3are metal/g
+s/Bare([-]?)metal/Bare metal/g
+
+#Big data is two words, one possible capital case with no hyphen.
+s/(B|b)ig([ -]?)(D|d)ata/\1ig data/g
+
+#"Bimonthly" means every other month.
+s/(B|b)i-monthly/\1imonthly/g
+
+#"Biweekly" means every other week.
+s/(B|b)i-weekly/\1iweekly/g
+
+#Use "BIND" when referring to the DNS software.
+#s/(Bind|bind)/BIND/g
+
+#BIOS is all uppercase.
+s/(B|b)ios/BIOS/g
+
+#Bit rate is two words.
+s/(B|b)itrate/\1it rate/g
+
+#Boot loader is two words.
+s/(B|b)ootloader/\1oot loader/g
+
+#Bottleneck is one word.
+s/(B|b)ottle([ -]?)neck/\1ottleneck/g
+
+#Broadcast is one word.
+s/(B|b)road[ -]?cast/\1roadcast/g
+
+#Bug fix is two words.
+s/(B|b)ugfix/\1ug fix/g
+
+#Built-in is hyphenated, not one or two words.
+s/(B|b)uilt([ ]?)in/\1uilt-in/g

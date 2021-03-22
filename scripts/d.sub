@@ -1,0 +1,50 @@
+#When used as a noun, a "daisy chain" is a hardware configuration in which devices are connected to each other in series. When used as a verb "daisy chain" means to connect devices in a daisy-chain pattern, that is, in series.
+s/(D|d)aisy([-]?)chain/\1aisy chain/g
+
+#A "data center" is a group of networked computer servers used for the remote storage, processing, or distribution of large amounts of data. Note that marketing publications use the one-word form, "datacenter."
+s/(D|d)ata([- ]?)(center|centre)/\1atacenter/g
+
+#"Data mirroring" is the act of copying data from one location to a storage device in real time.
+s/(D|d)ata([-]?)mirroring/\1ata mirroring/g
+
+#A "data path" is a collection of functional units (such as arithmetic logic units or multipliers that perform data processing operations), registers, and buses. Along with the control unit, a "data path" comprises the central processing unit (CPU).
+s/(D|d)atapath/\1ata path/g
+
+#Use "debug" as an adjective to describe a type of command or script that is used to find and remove errors from a program or design, for example, a "debug script." When used as a verb, "debug" means to find and remove errors from a program or design.
+s/(D|d)e-bug/\1ebug/g
+
+s/(D|d)enial-of-(S|s)ervice attack/denial-of-service attack/g
+
+#Use "desktop" as an adjective when describing a type of computer, for example, "desktop computer." When used as a noun, "desktop" can refer to a type of computer or the working area of a computer screen.
+s/(D|d)esk([ -]?)top/\1esktop/g
+
+#"DevOps" is a combination of "Development" and "Operations." It refers to a specific method or organizational approach where developers and IT operations staff work together to create the applications that run the business.
+s/(D|d)ev(ops|-ops|-Ops| Ops)/DevOps/g
+
+#Use "different from" when comparing two things. Use "different from" when the next part of the sentence is a noun or pronoun.
+#s/different (than|to)/different from/g
+
+#A "Disk Druid" is a partitioning tool incorporated into Red Hat Enterprise Linux.
+s/(D|d)isk([ ]?)druid/Disk Druid/g
+
+A "disk label" is a record that contains information about the location of the partitions on a disk.
+s/disk([-]?)label/disk label/g
+
+#"DNS" is an acronym for "Domain Name System" or "Domain Name Service," a service that translates domain names into IP addresses and vice versa.
+#s/dns/DNS/g
+#Probably needs to ensure it doesn't overwrite any commands or confs.
+
+#A "domain name" is a name that identifies one or more IP addresses, for example, "redhat.com."
+s/domain([-]?)name/domain name/g
+
+#Use "download" as a noun when referring to software, data, and so on that is being retrieved from another computer.
+s/(D|d)own([- ]?)load/\1ownload/g
+
+#"Downstream" as an adjective refers to the Red Hat offerings that are based on upstream community projects.
+s/(D|d)own([- ]?)stream/\1ownstream/g
+
+#A "dual-boot" system is a system in which two operating systems are installed on the same hard drive.
+s/(D|d)dual([ ]?)boot/\1ual-boot/g
+
+#A "DVD writer" is a device that records data into the DVD format.
+s/(DVD burner|burner)/DVD writer/g

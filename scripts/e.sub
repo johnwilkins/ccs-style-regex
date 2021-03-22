@@ -1,0 +1,2 @@
+#"Exif" is an image file format specification that enables metadata tags to be added to existing JPEG, TIFF, and RIFF files. "Exif" is sometimes referred to as "Exif Print."
+s/(EXIF|exif)/Exif/g

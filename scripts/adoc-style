@@ -1,0 +1,5 @@
+#Bold with single asterisks.
+s/(\*\*)([a-z ,.]+)(\*\*)/*\2*/g
+
+#Use blocks for admonistions.
+s/(^NOTE|^TIP|^WARNING|^IMPORTANT|^CAUTION)(:)([ ]?)([A-Za-z .?:!'"\*]+)/\[\1\]\n====\n\4\n====\n/g

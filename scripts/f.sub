@@ -1,0 +1,14 @@
+#When referring to a Frequently Asked Questions (FAQ) section of content, refer to it as "an FAQ" (to be read as "an F-A-Q"), not "a FAQ." The plural form is "FAQs."
+s/(Faq|faq|F.A.Q.)/FAQ/g
+
+#"Fault tolerance" is the ability of a system to respond gracefully to an unexpected hardware or software failure. There are many levels of fault tolerance, the lowest being the ability to continue operation in the event of a power failure.
+s/(F|f)ault-tolerance/\1ault tolerance/g
+
+#"Fault-tolerant" systems can respond gracefully to an unexpected hardware or software failure. Many fault-tolerant computer systems mirror all operations, that is, every operation is performed on two or more duplicate systems, so if one fails the other can take over.
+s/(F|f)ault tolerant/\1ault-tolerant/g
+
+#The "Fedora Project" is a global partnership of free software community members, sponsored by Red Hat. Red Hat Enterprise Linux is based on the Fedora operating system.
+s/fedora project/Fedora Project/g
+
+#"FireWire" is Apple's name for the IEEE 1394 High Speed Serial Bus, a serial bus architecture for high-speed data transfer.
+s/(F|f)irewire/FireWire/g
