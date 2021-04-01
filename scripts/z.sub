@@ -1,0 +1,2 @@
+#IBM Z is the correct usage. Do not use "S/390x," "s390x," "IBM zSeries," or "zSeries."
+s/(S|s)\/390x|s390x|IBM zSeries|zSeries/IBM Z/g
