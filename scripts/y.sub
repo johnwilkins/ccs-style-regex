@@ -1,0 +1,2 @@
+#YAML is the recursive acronym for YAML Ain't Markup Language, after originally being said to mean Yet Another Markup Language. YAML is a human-readable data serialization standard for all programming languages.
+s/(^|. )(Y|y)aml/YAML/g
